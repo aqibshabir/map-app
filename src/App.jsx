@@ -11,7 +11,7 @@ function App() {
         initialViewState={{
           longitude: -2.5209,
           latitude: 53.945,
-          zoom: 5,
+          zoom: 6,
         }}
         style={{
           position: "absolute",
