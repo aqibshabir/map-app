@@ -11,10 +11,12 @@ function App() {
         initialViewState={{
           longitude: -2.5209,
           latitude: 53.945,
-          zoom: 6,
+          zoom: 5,
         }}
         style={{
           position: "absolute",
+          zIndex: 0,
+          overflow: "hidden",
           width: "100vw",
           height: "100vh",
         }}
